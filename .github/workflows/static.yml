@@ -27,7 +27,7 @@ jobs:
     environment:
       name: staging
       #url: ${{ steps.deployment.outputs.page_url }}
-      url: http://appnetwise.com/staging-appnetwise.github.io
+      url: https://staging.appnetwise.com
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
